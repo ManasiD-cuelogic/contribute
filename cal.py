@@ -4,6 +4,10 @@ def add(a,b):
 def subtract(a,b):
     sub=a-b
     print("Subtraction : ",sub)
+def multiply(a,b):
+    print("Multiplication is ",a*b)    
+def divide(a,b):
+    print("Division is ",(a//b))    
 if __name__ == __"main"__:
     print("Enter First Number")
     x=int(input())
